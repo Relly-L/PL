@@ -1,0 +1,16 @@
+body{
+	/*background-image: url("http://nataliapiskova.org.ua/wp-content/uploads/2013/11/outer-space-1920x1200-hd-wallpaper.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;*/
+	font-family: 'Play', sans-serif;
+}
+
+.jumbotron{
+	background-image: url("http://wallpaperscraft.ru/image/pluton_planeta_karlikovaya_planeta_transneptunovyj_obekt_novosti_97479_1920x1080.jpg");
+	height: 600px;
+	background-size: 100%;
+}
+
+.col-md-4{
+	margin-right: 0px;
+}
