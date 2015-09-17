@@ -2,7 +2,7 @@ body{
 	/*background-image: url("http://nataliapiskova.org.ua/wp-content/uploads/2013/11/outer-space-1920x1200-hd-wallpaper.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;*/
-	font-family: 'Play', sans-serif;
+	font-family: 'Play', sans-serif !important;
 }
 
 .jumbotron{
@@ -13,4 +13,10 @@ body{
 
 .col-md-4{
 	margin-right: 0px;
+}
+h1{
+	color: lightgray !important;
+}
+blockquote{
+	font-size: 14px;
 }
