@@ -1,12 +1,11 @@
 body{
-	/*background-image: url("http://nataliapiskova.org.ua/wp-content/uploads/2013/11/outer-space-1920x1200-hd-wallpaper.jpg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;*/
 	font-family: 'Play', sans-serif !important;
 }
 
 .jumbotron{
-	background-image: url("http://wallpaperscraft.ru/image/pluton_planeta_karlikovaya_planeta_transneptunovyj_obekt_novosti_97479_1920x1080.jpg");
+	background-image: url("../src/background.jpg");
+	background-repeat: no-repeat;
+
 	height: 600px;
 	background-size: 100%;
 }
@@ -17,4 +16,21 @@ h1{
 }
 blockquote{
 	font-size: 14px;
+}
+.footer{
+	background-color: #eee;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+	
+}
+.footer ul li{
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 10px;
+	border-right: 1px solid lightgray;
+}
+.footer ul li:last-child{
+	border-right:none;
 }
