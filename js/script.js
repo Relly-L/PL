@@ -4,11 +4,10 @@ $(document).ready(function(){
 
 	$(".panel-heading").hover(
 		function () {
-		    $(this).addClass("class-for-background-interests",300);
+		    $(this).addClass("class-for-background-interests",400);
 	    },
 	    function () {
-	 	   $(this).removeClass("class-for-background-interests",300);
+	 	    $(this).removeClass("class-for-background-interests",200);
     	}
-);
-	
+	);
 });

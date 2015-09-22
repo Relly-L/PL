@@ -53,8 +53,11 @@ blockquote{
 	margin: 10px 0;
 }
 
-.class-for-background-interests{
-	background-color: lightblue !important;
+#accordion .panel .class-for-background-interests{
+	background-color: #CCDEE1;
+}
+.thumbnail{
+	padding: 5px;
 }
 
 
