@@ -34,3 +34,10 @@ blockquote{
 .footer ul li:last-child{
 	border-right:none;
 }
+.header{
+	display: none;
+	
+}
+blockquote{
+	margin-bottom: 0;
+}
