@@ -81,3 +81,12 @@ blockquote{
 .link-hover{
 	background-color: #CCDEE1;
 }
+
+.panel-title a{
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+.panel-heading{
+	padding: 0;
+}
