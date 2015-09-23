@@ -17,24 +17,7 @@ h1{
 blockquote{
 	font-size: 14px;
 }
-.footer{
-	background-color: #eee;
-	border-radius: 10px;
-	
-	border: 1px solid lightgray;
-	border-bottom: none;
-	margin-bottom: 0;
-}
-.footer ul li{
-	display: inline-block;
-	padding-top: 10px;
-	padding-right: 20px;
-	padding-left: 10px;
-	border-right: 1px solid lightgray;
-}
-.footer ul li:last-child{
-	border-right:none;
-}
+
 .header{
 	display: none;
 	
@@ -60,25 +43,41 @@ blockquote{
 	padding: 5px;
 }
 
+.footer{
+	background-color: #eee;
+	border-radius: 10px;
+	border: 1px solid lightgray;
+	list-style: none;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*kill dis shit*/
-/*.container{
-	background-color: lightblue;
 }
-*/
+.footer a{
+	display: block;
+	padding: 8px 14px;
+    text-decoration: none;
+    color: black;
+    margin-left: -3px;
+}
+.footer b{
+	display: block;
+	padding: 8px 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer ul li{
+	display: inline-block;
+	border-right: 1px solid lightgray;
+	font-size: 18px;
+}
+.footer ul li:first-child{
+	padding-right: 20px;
+	height: 100%;
+
+}
+
+.footer ul{
+	margin: 0;
+}
+.link-hover{
+	background-color: #CCDEE1;
+}
