@@ -38,6 +38,8 @@ blockquote{
 
 #accordion .panel .class-for-background-interests{
 	background-color: #CCDEE1;
+	border: 1px solid gray;
+	margin: -1px;
 }
 .thumbnail{
 	padding: 5px;
@@ -89,4 +91,12 @@ blockquote{
 }
 .panel-heading{
 	padding: 0;
+}
+.thumbnail{
+	min-height: 280px;						/*под очень большим сомнением, но через % размер работать отказывается*/
+}
+
+.thumbnail-hover{
+	background-color: #CCDEE1;
+	border-color: gray;
 }

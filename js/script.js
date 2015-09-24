@@ -20,7 +20,18 @@ $(document).ready(function(){
     	}
 	);
 
+	$(".thumbnail").hover(
+		function () {
+		    $(this).addClass("thumbnail-hover",400);
+	    },
+	    function () {
+	 	    $(this).removeClass("thumbnail-hover",200);
+    	}
+	);
 
 
+	$('.content1, content2').on('appear',function(){   // разобраться и заставить заработать
+		$(this).fadeOut('slow');
+	});
 
 });
