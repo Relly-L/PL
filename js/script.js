@@ -30,8 +30,8 @@ $(document).ready(function(){
 	);
 
 
-	$('.content1, content2').on('appear',function(){   // разобраться и заставить заработать
-		$(this).fadeOut('slow');
-	});
+	// $('.content1, content2').on('appear',function(){   // разобраться и заставить заработать
+	// 	$(this).fadeOut('slow');
+	// });
 
 });
