@@ -97,3 +97,64 @@ blockquote{
 .thumbnail-hover{
 	background-color: #CCDEE1;
 }
+
+							/*Для теста, удалить*/
+.top-func-buttons-menu{
+	position: fixed;
+	right: 4%;
+	opacity: 0.6;
+	top: -1px;
+}
+.top-func-buttons-menu:hover{
+	opacity: 1;
+}
+
+
+.top-func-buttons{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	display: inline-block;
+	background-color: white;
+	color: rgba(0, 0, 0, 0.2);
+	border-radius: 0px;
+	margin-top: -1px;
+
+}
+.top-func-buttons:hover{
+	color: black;
+	background-color: white;
+}
+.power-switch{
+	border-bottom-left-radius: 7px;
+}
+.move-to-top{
+	border-bottom-right-radius: 7px;
+	margin-left: -1px;
+}
+
+.btn-default:active:hover,
+.btn-default.active:hover
+{
+  color: black;
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.move-to-top a{
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.move-to-top a:hover{
+	color: black;
+}
+
+/*блок для переключения на ночной стиль*/
+
+.night-style-body{
+	background: #2f2f2f;
+    color: #c6c6c6;
+}
+.night-style-content{
+	background-color: #202020;
+	color: (255, 255, 255, 0.8);
+	border-color: black;
+}
