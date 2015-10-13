@@ -29,6 +29,16 @@ $(document).ready(function(){
     	}
 	);
 
+	// переключатель день-ночь
+	$(".power-switch").click(function(){
+		$("body").toggleClass('night-style-body', 200);
+		$("blockquote").toggleClass("nigth-style-blockquote",200);
+		$(".content1, .content2, .humor").toggleClass("night-style-content",200);
+		$(".carousel-photos-pluto").toggleClass("night-style-carousel-photos-pluto",200);
+		$(".interests").toggleClass("night-style-interests",200);
+		$(".footer").toggleClass("footer-night-style",200);
+		$(".middle-photos").toggleClass("night-style-middle-photos",200);
+	});
 
 	// $('.content1, content2').on('appear',function(){   // разобраться и заставить заработать
 	// 	$(this).fadeOut('slow');

@@ -158,3 +158,63 @@ blockquote{
 	color: (255, 255, 255, 0.8);
 	border-color: black;
 }
+.nigth-style-blockquote{
+	background-color: #202020;
+	color: rgba(255, 255, 255, 0.8);
+	border-color: black;
+}
+.night-style-middle-photos{
+	background-color: #202020;
+	border-color: black;
+}
+.night-style-middle-photos div div div{
+	background-color: #202020;
+	color: rgba(255, 255, 255, 0.8);
+	border-color: rgba(0, 0, 0, 0.6);
+}
+.night-style-carousel-photos-pluto{
+	background-color: #202020;
+	border-color: black;
+}
+.footer-night-style{
+	background-color: #202020;
+	border-color: black;
+}
+
+.footer-night-style ul li a,
+.footer-night-style ul li b{
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-night-style ul li{
+	border-right: 1px solid gray;
+}
+
+
+.night-style-interests{
+	background-color:#202020;
+	border-color: black;	
+
+}
+.night-style-interests h3{
+	color: white;
+}
+
+.night-style-interests .panel-group{
+	background-color:#202020;
+
+}
+.night-style-interests .panel-group .panel{
+	background-color:#202020;
+	color: rgba(255, 255, 255, 0.8);
+	border-color: rgba(0, 0, 0, 0.4);
+}
+
+.night-style-interests .panel-group .panel .panel-heading{
+	background-color:#202020;
+	color: rgba(255, 255, 255, 0.8);
+}
+.night-style-content .row .col-md-4 .thumbnail{
+	background-color:#202020;
+		border-color: rgba(0, 0, 0, 0.6);
+}
